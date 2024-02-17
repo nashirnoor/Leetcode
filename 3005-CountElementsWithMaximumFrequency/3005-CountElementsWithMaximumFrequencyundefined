@@ -1,0 +1,17 @@
+        """
+        max = 0
+        for i in nums:
+            if nums.count(i):
+                d = nums.count(i)
+                if max<d:
+                    max = d
+        return sum
+        for i in nums:
+            if nums.count(i)==max and i not in arr:
+                sum+=max
+        sum = 0
+                arr.append(i)
+        arr = []
+
+        
+[
