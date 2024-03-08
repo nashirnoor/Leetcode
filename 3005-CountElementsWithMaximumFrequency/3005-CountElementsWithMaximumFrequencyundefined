@@ -1,17 +1,18 @@
-        """
-        max = 0
-        for i in nums:
-            if nums.count(i):
-                d = nums.count(i)
-                if max<d:
-                    max = d
-        return sum
-        for i in nums:
-            if nums.count(i)==max and i not in arr:
-                sum+=max
-        sum = 0
-                arr.append(i)
-        arr = []
-
+        for val in count.values():
         
+        ans = 0
+        maxFreq = max(count.values())
+        count = Counter(nums)
+            if val==maxFreq:
+                ans+=val
+                
+        return ans
+                
+        
+        """
+        :rtype: int
+        :type nums: List[int]
+        """
+    def maxFrequencyElements(self, nums):
+class Solution(object):
 [
