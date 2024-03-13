@@ -9,8 +9,8 @@ class Solution:
         
         a=dict(sorted(zip(heights,names),reverse=True))
         l=[]
-            l.append(j)
         return l
-        for i,j in a.items():
+        for i in a:
+            l.append(a[i])
 
 [
