@@ -1,0 +1,17 @@
+class Solution(object):
+    def removeStars(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        arr = []
+        for i in s:
+            if i!="*":
+                arr.append(i)
+            else:
+                arr.pop()
+        return ''.join(arr)
+
+        
+        
+"
