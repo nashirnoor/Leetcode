@@ -1,0 +1,15 @@
+        stack = []
+        head = root
+        """
+        :rtype: List[int]
+        :type root: TreeNode
+        """
+    def preorderTraversal(self, root):
+class Solution(object):
+#         self.right = right
+#         self.left = left
+#         self.val = val
+#     def __init__(self, val=0, left=None, right=None):
+# class TreeNode(object):
+# Definition for a binary tree node.
+[
